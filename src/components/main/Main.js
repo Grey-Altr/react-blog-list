@@ -1,5 +1,5 @@
 import React from 'react';
-import { getBlogs } from '../../services/blog.js';
+import { getBlogs } from '../../services/blogs.js';
 import BlogCard from '../BlogCard/BlogCard.js';
 
 export default function Main() {
