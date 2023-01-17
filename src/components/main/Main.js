@@ -1,9 +1,9 @@
 import React from 'react';
-import { getBlogs } from '../../services/blogs.js';
+import useBlogs from '../../hooks/useBlogs.js';
 import BlogCard from '../BlogCard/BlogCard.js';
 
 export default function Main() {
-  const blogs = getBlogs();
+  const blogs = useBlogs();
 
   return (
     <main>
